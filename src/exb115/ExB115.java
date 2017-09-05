@@ -12,6 +12,9 @@ import java.util.Scanner;
  * @author xxaci
  */
 public class ExB115 {
+ public static void cottrellWasHere(){
+        System.out.println("Cottrell was here");
+    }
 
     /**
      * @param args the command line arguments
@@ -20,7 +23,7 @@ public class ExB115 {
         // TODO code application logic here
         int adultQuantity;
         int childQuantity;
-
+cottrellWasHere();
         Scanner keyboard = new Scanner(System.in);
         System.out.print("How many adult meals? ");
         adultQuantity = keyboard.nextInt();
