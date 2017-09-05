@@ -24,6 +24,7 @@ public class ExB115 {
         int adultQuantity;
         int childQuantity;
 cottrellWasHere();
+
         Scanner keyboard = new Scanner(System.in);
         System.out.print("How many adult meals? ");
         adultQuantity = keyboard.nextInt();
